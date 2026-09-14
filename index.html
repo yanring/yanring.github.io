@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zijie Yan — training systems, mixture of experts, and distributed computing.">
+  <meta name="theme-color" content="#faf9f6">
+  <title>Zijie Yan</title>
+  <link rel="canonical" href="https://yanring.github.io/">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header class="profile">
+      <h1>Zijie Yan <span lang="zh-Hans">颜子杰</span></h1>
+      <div class="introduction">
+        <p>I work on training infra at <a href="https://periodic.com/">Periodic Labs</a>.</p>
+        <p>Previously, I was a tech leader at NVIDIA DevTech, where I built and led the <a href="https://arxiv.org/abs/2603.07685"><strong>MoE training system</strong></a> in <a href="https://github.com/NVIDIA/Megatron-LM"><strong>Megatron-LM</strong></a>, enabling efficient training of trillion-parameter MoE models.</p>
+        <p>Before that, I led training infra at SenseTime and researched distributed training during my master's at Sun Yat-sen University.</p>
+      </div>
+      <nav class="profile-links" aria-label="Profiles">
+        <a href="https://scholar.google.com/citations?user=OOjXeW0AAAAJ&amp;hl=en">Google Scholar</a>
+        <a href="https://github.com/yanring">GitHub</a>
+        <a href="https://www.linkedin.com/in/yanring/">LinkedIn</a>
+      </nav>
+      <div class="portrait-frame">
+        <img class="portrait" src="portrait.jpg" alt="Zijie Yan hiking in the mountains" width="2073" height="2764">
+      </div>
+    </header>
+
+    <section aria-labelledby="work-title">
+      <h2 id="work-title">Selected work</h2>
+      <article class="publication">
+        <span class="year">2026</span>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2603.07685">Scalable Training of Mixture-of-Experts Models with Megatron Core</a></h3>
+          <p class="authors"><strong>Zijie Yan</strong> et al.</p>
+          <p>The industry's first comprehensive technical report on MoE training infrastructure. Explains how co-optimizing memory, communication, and computation enables DeepSeek-V3-685B training at <strong>1,233 TFLOPS/GPU on NVIDIA GB300</strong>.</p>
+          <div class="paper-links"><a href="https://arxiv.org/abs/2603.07685">Paper</a><a href="https://github.com/NVIDIA/Megatron-LM">Code</a></div>
+        </div>
+      </article>
+      <article class="publication">
+        <span class="year">2025</span>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2504.14960">MoE Parallel Folding</a></h3>
+          <p class="authors">Dennis Liu<sup>*</sup>, <strong>Zijie Yan</strong><sup>*</sup>, Xin Yao et al.</p>
+          <p class="contribution-note">* Equal contribution. First authors listed alphabetically.</p>
+          <p>Introduces Parallel Folding, which decouples attention and MoE parallelism so each can be optimized independently. The framework achieves up to <strong>49.3% MFU for Mixtral 8x22B on H100</strong> and scales to 1,024 GPUs.</p>
+          <div class="paper-links"><a href="https://arxiv.org/abs/2504.14960">Paper</a><a href="https://github.com/NVIDIA/Megatron-LM">Code</a></div>
+        </div>
+      </article>
+      <article class="publication">
+        <span class="year">2025</span>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2512.20856">NVIDIA Nemotron 3: Efficient and Open Intelligence</a></h3>
+          <p class="authors">NVIDIA team, including <strong>Zijie Yan</strong></p>
+          <p>Contributed to the training infrastructure and performance optimization of the Nemotron 3 model family.</p>
+          <div class="paper-links"><a href="https://arxiv.org/abs/2512.20856">Paper</a></div>
+        </div>
+      </article>
+      <article class="publication">
+        <span class="year">2024</span>
+        <div>
+          <h3><a href="https://developer.nvidia.com/blog/train-generative-ai-models-more-efficiently-with-new-nvidia-megatron-core-functionalities/">Train Generative AI Models More Efficiently with New NVIDIA Megatron-Core Functionalities</a></h3>
+          <p class="authors">Erin Ho, Deepak Narayanan, Seonmyeong Bak, <strong>Zijie Yan</strong> et al.</p>
+          <p>Co-authored a technical blog on MoE training optimizations in Megatron-Core.</p>
+          <div class="paper-links"><a href="https://developer.nvidia.com/blog/train-generative-ai-models-more-efficiently-with-new-nvidia-megatron-core-functionalities/">Blog</a></div>
+        </div>
+      </article>
+      <a class="all-publications" href="https://scholar.google.com/citations?user=OOjXeW0AAAAJ&amp;hl=en">All publications on Google Scholar <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <footer>
+      <span>Zijie Yan</span>
+      <a href="https://github.com/yanring">GitHub <span aria-hidden="true">↗</span></a>
+    </footer>
+  </main>
+</body>
+</html>
